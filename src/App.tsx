@@ -1,3 +1,4 @@
+import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { ProductsList } from "./components/ProductsList";
 
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       <Header />
       <ProductsList />
+      <Footer />
     </div>
   );
 }
